@@ -1,0 +1,14 @@
+C:\Users\morea\OneDrive\Desktop\ASH\POWEROFTWO\obj\Debug\netcoreapp3.1\POWEROFTWO.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\morea\OneDrive\Desktop\ASH\POWEROFTWO\obj\Debug\netcoreapp3.1\POWEROFTWO.AssemblyInfoInputs.cache
+C:\Users\morea\OneDrive\Desktop\ASH\POWEROFTWO\obj\Debug\netcoreapp3.1\POWEROFTWO.AssemblyInfo.cs
+C:\Users\morea\OneDrive\Desktop\ASH\POWEROFTWO\obj\Debug\netcoreapp3.1\POWEROFTWO.csproj.CoreCompileInputs.cache
+C:\Users\morea\OneDrive\Desktop\ASH\POWEROFTWO\bin\Debug\netcoreapp3.1\POWEROFTWO.exe
+C:\Users\morea\OneDrive\Desktop\ASH\POWEROFTWO\bin\Debug\netcoreapp3.1\POWEROFTWO.deps.json
+C:\Users\morea\OneDrive\Desktop\ASH\POWEROFTWO\bin\Debug\netcoreapp3.1\POWEROFTWO.runtimeconfig.json
+C:\Users\morea\OneDrive\Desktop\ASH\POWEROFTWO\bin\Debug\netcoreapp3.1\POWEROFTWO.runtimeconfig.dev.json
+C:\Users\morea\OneDrive\Desktop\ASH\POWEROFTWO\bin\Debug\netcoreapp3.1\POWEROFTWO.dll
+C:\Users\morea\OneDrive\Desktop\ASH\POWEROFTWO\bin\Debug\netcoreapp3.1\POWEROFTWO.pdb
+C:\Users\morea\OneDrive\Desktop\ASH\POWEROFTWO\obj\Debug\netcoreapp3.1\POWEROFTWO.csproj.AssemblyReference.cache
+C:\Users\morea\OneDrive\Desktop\ASH\POWEROFTWO\obj\Debug\netcoreapp3.1\POWEROFTWO.dll
+C:\Users\morea\OneDrive\Desktop\ASH\POWEROFTWO\obj\Debug\netcoreapp3.1\POWEROFTWO.pdb
+C:\Users\morea\OneDrive\Desktop\ASH\POWEROFTWO\obj\Debug\netcoreapp3.1\POWEROFTWO.genruntimeconfig.cache
