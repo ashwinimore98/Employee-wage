@@ -1,49 +1,87 @@
 ﻿using System;
+using System.Collections;
+using System.Linq;
+using System.Text;
 
-namespace empwagformulticop
+namespace Adressbook
 {
-    class Program
+    class AddressProgram
+
+
     {
-        public const int IS_PART_TIME = 1;
-        public const int IS_FULL_TIME = 2;
-        
+        static void Main()
 
-        public static int computeEmpWage(string company,int empRatePerHour,int numOfWorkingDays,int maxHoursPerMonth)
-        
         {
-            //Variables
-            int empHrs = 0, totalEmpHrs = 0, totalWorkingDays = 0;
-            //Computation
-            while (totalEmpHrs <= maxHoursPerMonth && totalWorkingDays < numOfWorkingDays)
+            ArrayList adress = new
+                ArrayList { };
+            Boolean menu = true;
+            double keychar;
+            do
             {
-                totalWorkingDays++;
-                Random random = new Random();
-                int empCheck = random.Next(0, 3);
-                switch (empCheck)
-                {
-                    case IS_PART_TIME:
-                        empHrs = 4;
-                        break;
-                    case IS_FULL_TIME:
-                        empHrs = 8;
-                        break;
-                    default:
-                        empHrs = 0;
-                        break;
-                }
-                totalEmpHrs += empHrs;
-                Console.WriteLine("Days#:" + totalWorkingDays + "Emp Hrs : " + empHrs);
-            }
-            int totalEmpWage = totalEmpHrs * empRatePerHour;
-            Console.WriteLine("Total Emp Wage for company : " + company + " is:"+ totalEmpWage);
-            return totalEmpWage;
-        
-        }
-        static void Main(string[] args)
-        {
-            computeEmpWage("DMart",20,2,10);
-            computeEmpWage("Reliance", 10, 4, 20);
-        }
-    }
+                Console.WriteLine("Welcome to my address program");
+                Console.WriteLine("**************");
 
+                Console.WriteLine(" Plese Enter your Firstname");
+                string str1 = "Fastname";
+                str1 = Console.ReadLine();
+                string valueString1 = str1;
+
+                Console.WriteLine(" Plese Enter your Lirstname");
+                string str2 = "Lastname";
+                str2 = Console.ReadLine();
+                string valueString2 = str2;
+
+
+                Console.WriteLine(" Plese Enter your Address");
+                string str3 = "address";
+                str3 = Console.ReadLine();
+                string valueString3 = str3;
+
+                Console.WriteLine(" Plese Enter your Phonenumber");
+                string str4 = "Phonenumber";
+                str4 = Console.ReadLine();
+                string valueString4 = str4;
+
+                Console.WriteLine(" Plese Enter your State");
+                string str5 = "State";
+                str5 = Console.ReadLine();
+                string valueString5 = str5;
+
+                Console.WriteLine(" Plese Enter your Email");
+                string str6 = "Email";
+                str6 = Console.ReadLine();
+                string valueString6 = str6;
+
+                Console.ReadLine();
+
+
+                Console.WriteLine("Firstname you entered: " + valueString1);
+
+                Console.WriteLine("Lirstname you entered: " + valueString2);
+
+
+                Console.WriteLine("Address you entered: " + valueString3);
+
+
+                Console.WriteLine("Phonenumber you entered: " + valueString4);
+
+
+                Console.WriteLine("State you entered: " + valueString5);
+
+
+                Console.WriteLine("Email you entered: " + valueString6);
+                Console.ReadLine();
+
+
+
+
+               
+            }
+            while (menu == true);
+        }
+
+        
+
+    }
+       
 }
